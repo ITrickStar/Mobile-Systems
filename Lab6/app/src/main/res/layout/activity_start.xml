@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/material_dynamic_neutral_variant50">
+
+    <LinearLayout
+        android:id="@+id/Rectangle_1"
+        android:layout_width="match_parent"
+        android:layout_height="100sp"
+        android:background="@color/white"
+        android:gravity="center"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/Rectangle1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Белый"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/Rectangle_2"
+        android:layout_width="match_parent"
+        android:layout_height="100sp"
+        android:layout_marginTop="10sp"
+        android:background="@color/black"
+        android:gravity="center"
+        app:layout_constraintTop_toBottomOf="@+id/Rectangle_1">
+
+        <TextView
+            android:id="@+id/Rectangle2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Черный"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/Rectangle_3"
+        android:layout_width="match_parent"
+        android:layout_height="100sp"
+        android:layout_marginTop="10sp"
+        android:background="@color/blue"
+        android:gravity="center"
+        app:layout_constraintTop_toBottomOf="@+id/Rectangle_2">
+
+        <TextView
+            android:id="@+id/Rectangle3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Синий"
+            android:textColor="@color/red"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/NextPage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next Page"
+        android:textColor="@color/black"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:background="@color/teal_700"
+        app:backgroundTint="@null"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

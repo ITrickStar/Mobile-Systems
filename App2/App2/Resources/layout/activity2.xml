@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:rowCount="3"
+    android:columnCount="3">
+
+    <TextView
+        android:background="#ff0000"
+        android:layout_width="100.0dp"
+        android:layout_height="100.0dp"
+        android:layout_marginLeft="20.0dp"
+        android:layout_marginTop="20.0dp" />
+    <TextView
+        android:background="#00ff00"
+        android:layout_width="100.0dp"
+        android:layout_height="100.0dp"
+        android:layout_marginLeft="20.0dp"
+        android:layout_marginTop="20.0dp" />
+    <TextView
+        android:background="#0000ff"
+        android:layout_width="100.0dp"
+        android:layout_height="100.0dp"
+        android:layout_marginLeft="20.0dp"
+        android:layout_marginTop="20.0dp" />
+    <TextView
+        android:background="#ff00ff"
+        android:layout_width="100.0dp"
+        android:layout_height="100.0dp"
+        android:layout_marginLeft="20.0dp"
+        android:layout_marginTop="20.0dp" />
+    <Space/>
+    <TextView
+        android:background="#000000"
+        android:layout_width="100.0dp"
+        android:layout_height="100.0dp"
+        android:layout_marginLeft="20.0dp"
+        android:layout_marginTop="20.0dp" />
+    <Space/>
+    <Button
+        android:id="@+id/btnNext2"
+        android:text="next"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20.0dp"
+        android:layout_marginTop="20.0dp" />
+
+</GridLayout>
